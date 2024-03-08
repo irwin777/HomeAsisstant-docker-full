@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "50449e1c44f4d22ed9fc64722cad7787"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "9b38d7d957c9771355ea571ebaef10f7",
+        "identifiers": [
+          [
+            "sun",
+            "50449e1c44f4d22ed9fc64722cad7787"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null,
+        "labels": []
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0675b15d9289b0c9cba66a3298ed1889"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "40:9C:A7:6C:85:AB"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0540",
+        "id": "5e6e1b02d51b68ce1cd171cb651c8d5b",
+        "identifiers": [],
+        "manufacturer": null,
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (40:9C:A7:6C:85:AB)",
+        "serial_number": null,
+        "sw_version": "orangepi4-lts",
+        "via_device_id": null,
+        "labels": []
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "c229600122d7f2de644167413d752d0b"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "0a8ab9a1553ee8621038beef8bc70d04",
+        "identifiers": [
+          [
+            "met",
+            "c229600122d7f2de644167413d752d0b"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null,
+        "labels": []
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "892ecd3ee33dacbdd8f1adb356728f8d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "fc14804f3add22d10b0fee226f3f7525",
+        "identifiers": [
+          [
+            "ibeacon",
+            "6dba3e9e-f6e0-4b65-b6a8-1c259e306918_0_0_48:70:1E:2B:3B:A1"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "UPEin0309CD 3BA1",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null,
+        "labels": []
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "892ecd3ee33dacbdd8f1adb356728f8d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b78f4314d5e27ef7a7e8ff26a9109480",
+        "identifiers": [
+          [
+            "ibeacon",
+            "6dba3e9e-f6e0-4b65-b6a8-1c259e306918_0_0_48:70:1E:2B:43:FD"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "UPEin030C25 43FD",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null,
+        "labels": []
+      }
+    ],
+    "deleted_devices": []
+  }
+}

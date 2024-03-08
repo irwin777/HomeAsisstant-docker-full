@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "50449e1c44f4d22ed9fc64722cad7787",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0675b15d9289b0c9cba66a3298ed1889",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "40:9C:A7:6C:85:AB",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "40:9C:A7:6C:85:AB",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cd9c7106a37bbc0a214a1e11c980ba19",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "be60d381e23d2f6ed9bb32e76c4745a0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c229600122d7f2de644167413d752d0b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "233e44c7f0df6fd467f96b9aded8098d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "892ecd3ee33dacbdd8f1adb356728f8d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ibeacon",
+        "title": "iBeacon Tracker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "34e713027bd2ab70d9d57e438d4a664b",
+        "version": 4,
+        "minor_version": 1,
+        "domain": "zha",
+        "title": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "data": {
+          "device": {
+            "path": "/dev/ttyACM0"
+          }
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "1A86:55D4_20231031141704_ITEAD_SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "disabled_by": null
+      }
+    ]
+  }
+}

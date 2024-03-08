@@ -1,0 +1,237 @@
+1709038767: mosquitto version 2.0.18 starting
+1709038767: Config loaded from /mosquitto/config/mosquitto.conf.
+1709038767: Opening ipv4 listen socket on port 1883.
+1709038767: Opening ipv6 listen socket on port 1883.
+1709038767: mosquitto version 2.0.18 running
+1709039276: mosquitto version 2.0.18 terminating
+1709039276: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709039622: mosquitto version 2.0.18 starting
+1709039622: Config loaded from /mosquitto/config/mosquitto.conf.
+1709039622: Opening ipv4 listen socket on port 1883.
+1709039622: Opening ipv6 listen socket on port 1883.
+1709039622: mosquitto version 2.0.18 running
+1709039758: mosquitto version 2.0.18 terminating
+1709039758: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709039793: mosquitto version 2.0.18 starting
+1709039793: Config loaded from /mosquitto/config/mosquitto.conf.
+1709039793: Opening ipv4 listen socket on port 1883.
+1709039793: Opening ipv6 listen socket on port 1883.
+1709039793: mosquitto version 2.0.18 running
+1709039839: mosquitto version 2.0.18 terminating
+1709039839: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709039914: mosquitto version 2.0.18 starting
+1709039914: Config loaded from /mosquitto/config/mosquitto.conf.
+1709039914: Opening ipv4 listen socket on port 1883.
+1709039914: Opening ipv6 listen socket on port 1883.
+1709039914: mosquitto version 2.0.18 running
+1709039927: New connection from 172.18.0.1:50770 on port 1883.
+1709039927: New client connected from 172.18.0.1:50770 as zigbee (p2, c1, k60, u'homeassistant').
+1709039983: Client zigbee disconnected.
+1709039984: mosquitto version 2.0.18 terminating
+1709039984: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709040632: mosquitto version 2.0.18 starting
+1709040632: Config loaded from /mosquitto/config/mosquitto.conf.
+1709040632: Opening ipv4 listen socket on port 1883.
+1709040632: Opening ipv6 listen socket on port 1883.
+1709040632: mosquitto version 2.0.18 running
+1709040644: New connection from 172.19.0.1:50758 on port 1883.
+1709040644: New client connected from 172.19.0.1:50758 as zigbee (p2, c1, k60, u'homeassistant').
+1709040913: Client zigbee disconnected.
+1709040914: mosquitto version 2.0.18 terminating
+1709040914: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709041529: mosquitto version 2.0.18 starting
+1709041529: Config loaded from /mosquitto/config/mosquitto.conf.
+1709041529: Opening ipv4 listen socket on port 1883.
+1709041529: Opening ipv6 listen socket on port 1883.
+1709041529: mosquitto version 2.0.18 running
+1709041543: New connection from 172.19.0.1:49450 on port 1883.
+1709041543: New client connected from 172.19.0.1:49450 as zigbee (p2, c1, k60, u'homeassistant').
+1709042280: New connection from 172.19.0.1:40764 on port 1883.
+1709042280: New client connected from 172.19.0.1:40764 as nodered_bc677985aff3dad3 (p2, c1, k60, u'homeassistant').
+1709042302: Client nodered_bc677985aff3dad3 disconnected.
+1709042302: New connection from 172.19.0.1:38882 on port 1883.
+1709042302: New client connected from 172.19.0.1:38882 as nodered_58f71de0eb6a794f (p2, c1, k60, u'homeassistant').
+1709042316: Client nodered_58f71de0eb6a794f disconnected.
+1709042316: New connection from 172.19.0.1:33776 on port 1883.
+1709042316: New client connected from 172.19.0.1:33776 as nodered_df214ed9cc460b47 (p2, c1, k60, u'homeassistant').
+1709042766: Client nodered_df214ed9cc460b47 disconnected.
+1709042774: Client zigbee disconnected.
+1709042775: mosquitto version 2.0.18 terminating
+1709042775: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709044235: mosquitto version 2.0.18 starting
+1709044235: Config loaded from /mosquitto/config/mosquitto.conf.
+1709044235: Opening ipv4 listen socket on port 1883.
+1709044235: Opening ipv6 listen socket on port 1883.
+1709044235: mosquitto version 2.0.18 running
+1709044247: New connection from 172.19.0.1:59894 on port 1883.
+1709044247: New client connected from 172.19.0.1:59894 as nodered_01df3256f058a528 (p2, c1, k60, u'homeassistant').
+1709044249: New connection from 172.19.0.1:59910 on port 1883.
+1709044249: New client connected from 172.19.0.1:59910 as zigbee (p2, c1, k60, u'homeassistant').
+1709044262: Client nodered_01df3256f058a528 disconnected.
+1709044271: Client zigbee disconnected.
+1709044272: mosquitto version 2.0.18 terminating
+1709044272: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709044356: mosquitto version 2.0.18 starting
+1709044356: Config loaded from /mosquitto/config/mosquitto.conf.
+1709044356: Opening ipv4 listen socket on port 1883.
+1709044356: Opening ipv6 listen socket on port 1883.
+1709044356: mosquitto version 2.0.18 running
+1709044368: New connection from 172.19.0.1:34528 on port 1883.
+1709044368: New client connected from 172.19.0.1:34528 as nodered_7d5f4cbbfe82315e (p2, c1, k60, u'homeassistant').
+1709044370: New connection from 172.19.0.1:34544 on port 1883.
+1709044370: New client connected from 172.19.0.1:34544 as zigbee (p2, c1, k60, u'homeassistant').
+1709044535: mosquitto version 2.0.18 starting
+1709044535: Config loaded from /mosquitto/config/mosquitto.conf.
+1709044535: Opening ipv4 listen socket on port 1883.
+1709044535: Opening ipv6 listen socket on port 1883.
+1709044535: mosquitto version 2.0.18 running
+1709044547: New connection from 172.19.0.1:56650 on port 1883.
+1709044547: New client connected from 172.19.0.1:56650 as nodered_1e828c0db745e15c (p2, c1, k60, u'homeassistant').
+1709044548: New connection from 172.19.0.1:56666 on port 1883.
+1709044548: New client connected from 172.19.0.1:56666 as zigbee (p2, c1, k60, u'homeassistant').
+1709044678: Client nodered_1e828c0db745e15c disconnected.
+1709044687: Client zigbee disconnected.
+1709044688: mosquitto version 2.0.18 terminating
+1709044688: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709044734: mosquitto version 2.0.18 starting
+1709044734: Config loaded from /mosquitto/config/mosquitto.conf.
+1709044734: Opening ipv4 listen socket on port 1883.
+1709044734: Opening ipv6 listen socket on port 1883.
+1709044734: mosquitto version 2.0.18 running
+1709044747: New connection from 172.19.0.1:59418 on port 1883.
+1709044747: New client connected from 172.19.0.1:59418 as nodered_c80efc452daceeb7 (p2, c1, k60, u'homeassistant').
+1709044749: New connection from 172.19.0.1:59420 on port 1883.
+1709044749: New client connected from 172.19.0.1:59420 as zigbee (p2, c1, k60, u'homeassistant').
+1709044861: Client nodered_c80efc452daceeb7 disconnected.
+1709044869: Client zigbee disconnected.
+1709044870: mosquitto version 2.0.18 terminating
+1709044870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709046492: mosquitto version 2.0.18 starting
+1709046492: Config loaded from /mosquitto/config/mosquitto.conf.
+1709046492: Opening ipv4 listen socket on port 1883.
+1709046492: Opening ipv6 listen socket on port 1883.
+1709046492: mosquitto version 2.0.18 running
+1709046505: New connection from 172.23.0.1:44950 on port 1883.
+1709046505: New client connected from 172.23.0.1:44950 as nodered_c6c33a4bae69a0d9 (p2, c1, k60, u'homeassistant').
+1709046506: New connection from 172.23.0.1:44962 on port 1883.
+1709046506: New client connected from 172.23.0.1:44962 as zigbee (p2, c1, k60, u'homeassistant').
+1709046647: Client nodered_c6c33a4bae69a0d9 disconnected.
+1709046657: Client zigbee disconnected.
+1709046658: mosquitto version 2.0.18 terminating
+1709046658: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709046763: mosquitto version 2.0.18 starting
+1709046763: Config loaded from /mosquitto/config/mosquitto.conf.
+1709046763: Opening ipv4 listen socket on port 1883.
+1709046763: Opening ipv6 listen socket on port 1883.
+1709046763: mosquitto version 2.0.18 running
+1709046775: New connection from 172.24.0.1:56502 on port 1883.
+1709046775: New client connected from 172.24.0.1:56502 as nodered_09c219e27b59abd7 (p2, c1, k60, u'homeassistant').
+1709046777: New connection from 172.24.0.1:56510 on port 1883.
+1709046777: New client connected from 172.24.0.1:56510 as zigbee (p2, c1, k60, u'homeassistant').
+1709047054: Client nodered_09c219e27b59abd7 disconnected.
+1709047063: Client zigbee disconnected.
+1709047064: mosquitto version 2.0.18 terminating
+1709047064: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709047086: mosquitto version 2.0.18 starting
+1709047086: Config loaded from /mosquitto/config/mosquitto.conf.
+1709047086: Opening ipv4 listen socket on port 1883.
+1709047086: Opening ipv6 listen socket on port 1883.
+1709047086: mosquitto version 2.0.18 running
+1709047099: New connection from 172.24.0.1:38794 on port 1883.
+1709047099: New client connected from 172.24.0.1:38794 as nodered_1b2e7ec57c128a28 (p2, c1, k60, u'homeassistant').
+1709047100: New connection from 172.24.0.1:38804 on port 1883.
+1709047100: New client connected from 172.24.0.1:38804 as zigbee (p2, c1, k60, u'homeassistant').
+1709047367: Client nodered_1b2e7ec57c128a28 disconnected.
+1709047376: Client zigbee disconnected.
+1709047377: mosquitto version 2.0.18 terminating
+1709047377: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709047583: mosquitto version 2.0.18 starting
+1709047583: Config loaded from /mosquitto/config/mosquitto.conf.
+1709047583: Opening ipv4 listen socket on port 1883.
+1709047583: Opening ipv6 listen socket on port 1883.
+1709047583: mosquitto version 2.0.18 running
+1709047596: New connection from 172.26.0.1:34262 on port 1883.
+1709047596: New client connected from 172.26.0.1:34262 as nodered_f1bfd061439ea5e1 (p2, c1, k60, u'homeassistant').
+1709047597: New connection from 172.26.0.1:34270 on port 1883.
+1709047597: New client connected from 172.26.0.1:34270 as zigbee (p2, c1, k60, u'homeassistant').
+1709047797: Client nodered_f1bfd061439ea5e1 closed its connection.
+1709047806: New connection from 172.26.0.1:53240 on port 1883.
+1709047806: New client connected from 172.26.0.1:53240 as nodered_46201064a840ede4 (p2, c1, k60, u'homeassistant').
+1709049384: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709051185: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709052986: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709054787: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709056588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709058389: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709060190: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709061991: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062159: Client nodered_46201064a840ede4 disconnected.
+1709062168: Client zigbee disconnected.
+1709062169: mosquitto version 2.0.18 terminating
+1709062169: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062225: mosquitto version 2.0.18 starting
+1709062225: Config loaded from /mosquitto/config/mosquitto.conf.
+1709062225: Opening ipv4 listen socket on port 1883.
+1709062225: Opening ipv6 listen socket on port 1883.
+1709062225: mosquitto version 2.0.18 running
+1709062240: New connection from 172.27.0.7:43506 on port 1883.
+1709062240: New client connected from 172.27.0.7:43506 as zigbee (p2, c1, k60, u'homeassistant').
+1709062486: Client zigbee disconnected.
+1709062488: mosquitto version 2.0.18 terminating
+1709062488: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062584: mosquitto version 2.0.18 starting
+1709062584: Config loaded from /mosquitto/config/mosquitto.conf.
+1709062584: Opening ipv4 listen socket on port 1883.
+1709062584: Opening ipv6 listen socket on port 1883.
+1709062584: mosquitto version 2.0.18 running
+1709062598: New connection from 172.27.0.7:49592 on port 1883.
+1709062598: New client connected from 172.27.0.7:49592 as zigbee (p2, c1, k60, u'homeassistant').
+1709062678: Client zigbee disconnected.
+1709062679: mosquitto version 2.0.18 terminating
+1709062679: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062836: mosquitto version 2.0.18 starting
+1709062836: Config loaded from /mosquitto/config/mosquitto.conf.
+1709062836: Opening ipv4 listen socket on port 1883.
+1709062836: Opening ipv6 listen socket on port 1883.
+1709062836: mosquitto version 2.0.18 running
+1709062848: New connection from 172.27.0.10:60410 on port 1883.
+1709062848: New client connected from 172.27.0.10:60410 as nodered_18e28bf862bf926f (p2, c1, k60, u'homeassistant').
+1709062853: New connection from 172.27.0.8:38222 on port 1883.
+1709062853: New client connected from 172.27.0.8:38222 as zigbee (p2, c1, k60, u'homeassistant').
+1709062897: Client nodered_18e28bf862bf926f disconnected.
+1709062905: Client zigbee disconnected.
+1709062906: mosquitto version 2.0.18 terminating
+1709062906: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709062994: mosquitto version 2.0.18 starting
+1709062994: Config loaded from /mosquitto/config/mosquitto.conf.
+1709062994: Opening ipv4 listen socket on port 1883.
+1709062994: Opening ipv6 listen socket on port 1883.
+1709062994: mosquitto version 2.0.18 running
+1709063007: New connection from 172.27.0.10:33474 on port 1883.
+1709063007: New client connected from 172.27.0.10:33474 as nodered_f71cf34b504f14a3 (p2, c1, k60, u'homeassistant').
+1709063009: New connection from 172.27.0.7:58918 on port 1883.
+1709063009: New client connected from 172.27.0.7:58918 as zigbee (p2, c1, k60, u'homeassistant').
+1709063081: Client nodered_f71cf34b504f14a3 disconnected.
+1709063089: Client zigbee disconnected.
+1709063091: mosquitto version 2.0.18 terminating
+1709063091: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709901512: mosquitto version 2.0.18 starting
+1709901512: Config loaded from /mosquitto/config/mosquitto.conf.
+1709901512: Opening ipv4 listen socket on port 1883.
+1709901512: Opening ipv6 listen socket on port 1883.
+1709901512: mosquitto version 2.0.18 running
+1709901656: New connection from 172.19.0.10:48124 on port 1883.
+1709901656: New client connected from 172.19.0.10:48124 as nodered_656e9c27187c9e46 (p2, c1, k60, u'homeassistant').
+1709901958: Client nodered_656e9c27187c9e46 disconnected.
+1709901964: mosquitto version 2.0.18 terminating
+1709901964: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1709901984: mosquitto version 2.0.18 starting
+1709901984: Config loaded from /mosquitto/config/mosquitto.conf.
+1709901984: Opening ipv4 listen socket on port 1883.
+1709901984: Opening ipv6 listen socket on port 1883.
+1709901984: mosquitto version 2.0.18 running
+1709901998: New connection from 172.19.0.10:51136 on port 1883.
+1709901998: New client connected from 172.19.0.10:51136 as nodered_48e178defcc53175 (p2, c1, k60, u'homeassistant').
+1709902755: Client nodered_48e178defcc53175 disconnected.
+1709902762: mosquitto version 2.0.18 terminating
+1709902762: Saving in-memory database to /mosquitto/data//mosquitto.db.

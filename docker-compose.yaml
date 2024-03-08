@@ -1,0 +1,135 @@
+version: '3'
+services:
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Kyiv
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/data:/data
+    ports:
+      - 9000:9000
+      - 9443:9443
+
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    depends_on:
+      - zigbee2mqtt
+      - mariadb
+    volumes:
+      - ./homeassistant:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Kyiv
+    privileged: true
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    ports:
+      - 8123:8123
+
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    image: koenkk/zigbee2mqtt
+    restart: unless-stopped
+    depends_on:
+      - mosquitto
+    volumes:
+      - ./zigbee2mqtt/data:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      - 8020:8020
+    environment:
+      - TZ=Europe/Kyiv
+    devices:
+      - /dev/ttyS0:/dev/ttyACM0
+    group_add:
+      - dialout
+
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Kyiv
+    ports:
+      - 1883:1883
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    stdin_open: true
+    tty: true
+
+  hass-configurator:
+    container_name: hassconf
+    image: causticlab/hass-configurator-docker
+    restart: unless-stopped
+    environment:
+      - HC_BASEPATH=/hass-config
+      - HC_DIRSFIRST=true
+    ports:
+      - 3218:3218
+    volumes:
+      - ./fileeditor:/config
+      - ./homeassistant:/hass-config
+
+  mariadb:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Kyiv
+      - MYSQL_ROOT_PASSWORD=Qwerty12
+      - MYSQL_DATABASE=ha_db
+      - MYSQL_USER=homeassistant
+      - MYSQL_PASSWORD=Qwerty12
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mariadb:/var/lib/mysql
+
+  adminer:
+    container_name: adminer
+    image: adminer
+    restart: unless-stopped
+    environment:
+      - ADMINER_DEFAULT_SERVER=mariadb
+      - ADMINER_PLUGINS=frames
+    ports:
+      - 8080:8080
+    depends_on:
+      - mariadb
+
+  esphome:
+    container_name: esphome
+    image: esphome/esphome
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - 6052:6052
+    environment:
+      - TZ=Europe/Kyiv
+    volumes:
+      - ./esphome/config:/config
+      - /etc/localtime:/etc/localtime:ro
+
+  nodered:
+    container_name: nodered
+    image: nodered/node-red
+    restart: unless-stopped
+    ports:
+      - 1880:1880
+    environment:
+      - TZ=Europe/Kyiv
+    volumes:
+      - ./nodered/data:/data
+    depends_on:
+      - homeassistant
+      - mosquitto

@@ -1,0 +1,19 @@
+homeassistant: true
+permit_join: false
+mqtt:
+  base_topic: zigbee2mqtt
+  server: '!secret server'
+  user: '!secret user'
+  password: '!secret password'
+  client_id: zigbee
+serial:
+  port: /dev/ttyACM0
+frontend:
+  port: 8020
+advanced:
+  homeassistant_legacy_entity_attributes: false
+  legacy_api: false
+  legacy_availability_payload: false
+device_options:
+  legacy: false
+availability: true
